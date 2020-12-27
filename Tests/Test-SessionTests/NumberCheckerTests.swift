@@ -13,6 +13,12 @@ final class NumberCheckerTests: XCTestCase {
     func testIsNumberGreaterThanZero() {
         let sut = NumberChecker()
         let expectation = sut.isNumberGreaterThanZero(3)
+        XCTAssertEqual(expectation, true)
+    }
+    
+    func testIsNumberGreaterThanZeroTofail() {
+        let sut = NumberChecker()
+        let expectation = sut.isNumberGreaterThanZero(3)
         XCTAssertEqual(expectation, false)
     }
 }
