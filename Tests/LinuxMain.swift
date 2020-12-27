@@ -1,3 +1,4 @@
+//Run command$ 'swift test' in terminal to run all tests
 import XCTest
 
 import Test_SessionTests
