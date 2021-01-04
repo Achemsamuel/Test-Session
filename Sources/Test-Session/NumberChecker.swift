@@ -9,7 +9,7 @@ import Foundation
 
 final class NumberChecker {
     
-    static func add() -> Int {
+    func add() -> Int {
         return 1
     }
 
