@@ -6,8 +6,7 @@ extension NumberCheckerTests {
     //   `swift test --generate-linuxmain`
     // to regenerate.
     static let __allTests__NumberCheckerTests = [
-        ("testIsNumberGreaterThanZero", testIsNumberGreaterThanZero),
-        ("testIsNumberGreaterThanZeroTofail", testIsNumberGreaterThanZeroTofail),
+        ("testIsNumberEqualToZero", testIsNumberEqualToZero),
     ]
 }
 
