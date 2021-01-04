@@ -9,7 +9,8 @@ import Foundation
 
 final class NumberChecker {
     
-    func isNumberGreaterThanZero(_ number: Int) -> Bool {
-        return number > 0 ? true : false
+    static func add() -> Int {
+        return 1
     }
+
 }

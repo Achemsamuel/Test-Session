@@ -10,15 +10,8 @@ import XCTest
 
 final class NumberCheckerTests: XCTestCase {
     
-    func testIsNumberGreaterThanZero() {
-        let sut = NumberChecker()
-        let expectation = sut.isNumberGreaterThanZero(3)
-        XCTAssertEqual(expectation, true)
+    func testIsNumberEqualToZero() {
+        XCTAssertEqual(NumberChecker.add(), 0)
     }
     
-    func testIsNumberGreaterThanZeroTofail() {
-        let sut = NumberChecker()
-        let expectation = sut.isNumberGreaterThanZero(3)
-        XCTAssertEqual(expectation, false)
-    }
 }
